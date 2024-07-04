@@ -259,8 +259,8 @@ export const purpleThemeDark = {
     tertiary80: '#eaeaeacc',
     tertiary70: '#eaeaeab3',
     tertiary50: '#eaeaea80',
-    aboutimg1: purpleThemeboy,
-    aboutimg2: purpleThemegirl,
+    aboutimg1:  purpleThemegirl,
+    aboutimg2: purpleThemeboy,
     eduimg: eduPurple,
     expimg: expPurple,
     contactsimg: contactsPurple

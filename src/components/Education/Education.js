@@ -11,7 +11,7 @@ function Education() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="education" id="resume" style={{backgroundColor: theme.secondary}}>
+        <div className="education w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" id="resume" style={{backgroundColor: theme.secondary}}>
            
             <div className="education-body">
                 <div className="education-description">

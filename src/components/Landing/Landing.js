@@ -157,7 +157,7 @@ function Landing() {
 
                 <div
                     style={{ backgroundColor: theme.secondary }}
-                    className='landing--container-right h-[50rem] w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center'
+                    className='landing--container-right dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center'
                 >
 
                     <div

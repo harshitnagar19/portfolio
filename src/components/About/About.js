@@ -420,7 +420,7 @@ function About() {
                 <div className="about-img">
                      <World className="world" data={sampleArcs} globeConfig={globeConfig} />;
                 </div>
-            </div>
+            </div> 
         </div>
 
     )

@@ -46,11 +46,11 @@ function Skills() {
 
     const classes = useStyles();
     return (
-        <div className="skills" style={{ backgroundColor: theme.secondary }}>
+        <div className="skills w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" style={{ backgroundColor: theme.secondary }}>
             <div className="skillsHeader">
                 <h2 style={{ color: theme.primary }}>Skills</h2>
             </div>
-            <div className="skillsContainer">
+            <div className="skillsContainer ">
                 <div className="skill--scroll">
                     <Marquee
                         gradient={false}

@@ -8,16 +8,20 @@ import EducationCard from './EducationCard';
 import { educationData } from '../../data/educationData'
 
 function Education() {
-
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="education w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" id="resume" style={{backgroundColor: theme.secondary}}>
-           
+        <div className="education w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" id="resume" style={{ backgroundColor: theme.secondary }}>
             <div className="education-body">
+                <div className="line-styling pb-[8rem]">
+                    <div className="style-circle" style={{ backgroundColor: theme.primary }}></div>
+                    <div className="style-circle" style={{ backgroundColor: theme.primary }}></div>
+                    <div className="style-line" style={{ backgroundColor: theme.primary }}></div>
+                </div>
+                <div className='flex flex-row justify-center items-center'>
                 <div className="education-description">
-                <h1 style={{color:theme.primary}}>Education</h1>
+                    <h1 style={{ color: theme.primary }}>Education</h1>
                     {educationData.map(edu => (
-                        <EducationCard 
+                        <EducationCard
                             key={edu.id}
                             id={edu.id}
                             institution={edu.institution}
@@ -29,7 +33,8 @@ function Education() {
                     ))}
                 </div>
                 <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
+                    <img src={theme.eduimg} alt="" />
+                </div>
                 </div>
             </div>
         </div>

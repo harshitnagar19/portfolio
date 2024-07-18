@@ -17,7 +17,6 @@
     'Tailwind',
     'MySQL',
     'MaterialUI'
-    
 ]
 
 

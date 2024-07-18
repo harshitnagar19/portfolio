@@ -11,7 +11,7 @@ function Experience() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="experience" id="experience" style={{backgroundColor: theme.secondary}}> 
+        <div className="experience w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" id="experience" style={{backgroundColor: theme.secondary}}> 
              <div className="experience-body">
                  <div className="experience-image">
                      <img src={theme.expimg} alt="" />

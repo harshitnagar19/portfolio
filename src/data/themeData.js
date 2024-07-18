@@ -1,7 +1,4 @@
-/* eslint-disable */
-import { 
-    greenThemeLight, greenThemeDark, bwThemeLight, bwThemeDark, blueThemeLight, blueThemeDark, redThemeLight, redThemeDark, orangeThemeLight, orangeThemeDark, purpleThemeLight, purpleThemeDark, pinkThemeLight, pinkThemeDark, yellowThemeLight, yellowThemeDark
-} from '../theme/theme'
+import {  purpleThemeDark} from '../theme/theme'
 
 
 export const themeData = {
@@ -9,4 +6,3 @@ export const themeData = {
 }
 
 
-// Choose theme from above

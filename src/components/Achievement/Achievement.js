@@ -11,7 +11,7 @@ function Achievement() {
     return (
         <>
             {achievementData.achievements.length > 0 && (
-                <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
+                <div className="achievement w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" id="achievement" style={{backgroundColor: theme.secondary}}>
                 <div className="achievement-body">
                     <h1 style={{color: theme.primary}}>Achievements</h1>
                     <h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>

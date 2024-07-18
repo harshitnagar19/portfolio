@@ -16,7 +16,7 @@ function Footer() {
     const { theme }  = useContext(ThemeContext)
 
     return (
-        <div className="footer" style={{backgroundColor: theme.secondary}}>
+        <div className="footer w-full dark:bg-grid-white/[0.4] bg-grid-black/[0.4]  flex items-center justify-center" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
                 Made with  
                 <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>

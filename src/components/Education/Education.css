@@ -3,9 +3,8 @@
 }
 
 .education-body {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  
+    /* align-items: center; */
     justify-content: center;
     width: 100%;
     color: hsla(117, 56%, 49%, 0.702);
@@ -27,6 +26,31 @@
     font-family: var(--primaryFont);
     margin-bottom: 2rem;
 }
+
+
+.education-body .line-styling{
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .education-body .line-styling .style-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .education-body .line-styling .style-line{
+    width: 95%;
+    height: 5px;
+    border-radius: 10px;
+  }
+  
 
 .education-card {
     display: flex;
